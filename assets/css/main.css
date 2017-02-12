@@ -64,12 +64,11 @@ select {
 
 #logo {
     position: absolute; 
-    left: 20%;
-    top: 10%;
+    left: 15%;
+    top: 5%;
     width: 177px;
     height: 106px;
     background-image: url(../images/logo.png);
-	background-color:white;
 }
 
 /*slide show*/
