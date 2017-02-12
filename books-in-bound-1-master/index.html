@@ -1,0 +1,98 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="A books trading website for students">
+        <meta name="viewport" content="width=device-with, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <link rel="shortcut icon" href="images/book-icon.ico">
+
+        <link rel="stylesheet" href="css/reset.css" type="text/css">
+        <link rel="stylesheet" href="css/index.css" type="text/css">
+        
+        <title>Books In Bound</title>
+    </head>
+    
+    <!-- Beginning of Body tag -->
+    <body>
+        <header id="page_header">
+            <nav>
+                <ul>
+                    <a href="#"><li>Home |      </li></a>
+                    <a href="#"><li>Account |   </li></a>
+                    <a href="#"><li>Help        </li></a>
+                </ul>
+            </nav>
+
+            <!--Logo-->
+            <div id="logo">
+                
+            </div> <!-- End of logo div -->
+
+            <!--search box-->
+            <form id="browse" action="search.php" method="GET">
+                <fieldset>
+                    <select>
+                        <option value="Genre" selected>Genre</option>
+                        <option value="Programming">Programming</option>
+                        <option value="Non-fiction">Non-fiction</option>
+                        <option value="Science fiction">Science fiction</option>
+                        <option value="Satire">Satire</option>
+                        <option value="drama">Drama</option>
+                        <option value="Action &#38;"> Action and Adventure</option>
+                        <option value="romance">Romance</option>
+                        <option value="mystery">Mystery</option>
+                        <option value="horror">Horror</option>
+                        <option value="health">Health</option>
+                        <option value="travel">Travel</option>
+                        <option value="children">Children's</option>
+                        <option value="religion, Spirituality">Religion, Spirituality &#38; New Age
+                        Science</option>
+                        <option>History</option>
+                        <option>Math</option>
+                        <option>Anthology</option>
+                        <option>Poetry</option>
+                        <option>Encyclopedias</option>
+                        <option>Comics</option>
+                        <option>Art</option>
+                        <option>Cookbooks</option>
+                        <option>Journals</option>
+                        <option>Prayer books</option>
+                        <option>Series</option>
+                        <option>Trilogy</option>
+                        <option>Biographies</option>
+                        <option>Autobiographies</option>
+                        <option>Fantasy</option>
+                    </select>
+                    <input type="search" placeholder="Browse Books">
+                    <input type="submit" value="Search">
+                </fieldset>
+            </form><!-- End of search form -->
+        </header> <!-- End of main header tag -->
+
+        <div id="content">
+            <div class="slideshow_container">
+                <!-- First image -->
+                <div class="myslides fade">
+                    <div class="number_text">1/2</div>
+                    <img src="images/slider_image1.jpg">
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <!-- Second image -->
+                <div class="myslides fade">
+                    <div class="number_text">2/2</div>
+                    <img src="images/slider_image2.jpg">
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides( -1 )">&#10094;</a>
+                <a class="next" onclick="plusSlides( 1 )">&#10095;</a>
+            </div> <!-- End of slideshow_container -->
+        </div> <!-- End of content div -->
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
