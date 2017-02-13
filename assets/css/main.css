@@ -1,36 +1,45 @@
 /*Global styles*/
 body {
     color: white;
-    background: white;
+    background: #353B39;
     margin: 0;
     width: 100%;
 }
 
 /*Main header*/
 #page_header {
-    height: 90px;
-    background: #233792;
+    height: 60px;
+    background: white;
     margin: 0;
     padding: 10px;
     box-shadow: 0 5px 20px 1px #0D232C;
-    position: fixed;
     width: 100%;
-    z-index: 1;
 }
 
 nav { 
-    text-align: center;
+    text-align: right;
     letter-spacing: 2px;
+    word-spacing: 5px;
     padding-top: 20px;
+    font-family: "josefin sans";
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 90%;
 }
 
 nav ul li {
     text-decoration: none;
     list-style-type: none;
     display: inline-block;
-    color: white;
     position: inherit;
-}   
+    color: black;
+}  
+
+nav a:hover { 
+    transition: background-color 0.5s ease;
+    background-color: black;
+    padding: 5px;   
+ }
 
 form#browse {
     position: absolute;
@@ -65,13 +74,22 @@ select {
 #logo {
     position: absolute; 
     left: 15%;
-    top: 5%;
-    width: 177px;
-    height: 106px;
-    background-image: url(../images/logo.png);
+    top: 0%;
+}
+
+#logo img {
+    width: 150px;
+    height: 85px
 }
 
 /*slide show*/
+
+#content img {
+    width: 1353px;
+    height: 431px;
+}
+
+
 .slideshow_container {
     max-width: 1000px;
     position: relative;
