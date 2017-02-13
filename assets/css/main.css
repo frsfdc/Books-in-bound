@@ -11,9 +11,10 @@ body {
     height: 60px;
     background: white;
     margin: 0;
-    padding: 10px;
+    padding: 10px 0;
     box-shadow: 0 5px 20px 1px #0D232C;
     width: 100%;
+    position: sticky;
 }
 
 nav { 
@@ -41,9 +42,10 @@ nav a:hover {
     padding: 5px;   
  }
 
-form#browse {
+/*Search box*/
+#browse form {
     position: absolute;
-    right: 5%;
+    right: 40%;
     top: 20%;
 }
 
