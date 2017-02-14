@@ -87,9 +87,15 @@ select {
 /*content box*/
 #content {
     background: url("../images/background.jpg") no-repeat;
-    background-size: 100% 450px;
-    height: 450px;
+    background-size: 100% 518px;
+    height: 518px;
     opacity: 0.6;
+}
+
+#content h1 { 
+    color: white;
+    font-size: 70px;
+    text-align: justify;
 }
 
 /*slide show*/
