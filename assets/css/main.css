@@ -84,12 +84,13 @@ select {
     height: 85px
 }
 
-/*slide show*/
-
-#content img {
-    width: 1353px;
-    height: 431px;
+/*content box*/
+#content {
+    background: url("../images/books-1012088_1280.jpg") no-repeat;
+    height: 450px;
 }
+
+/*slide show*/
 
 
 .slideshow_container {
