@@ -99,8 +99,6 @@ select {
 }
 
 /*slide show*/
-
-
 .slideshow_container {
     max-width: 1000px;
     position: relative;
@@ -169,4 +167,34 @@ select {
 @keyframes fade {
     from { opacity: .4 }
     to { opacity: 1 }
+}
+
+/*footer*/
+footer {
+    padding: 60px 60px 10px;
+    background-color: white;
+    color: black;
+    margin: 0;
+}
+
+#footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#link_footer {
+    background-color: #353B39;
+    width: 100%;
+    clear: both;
+}
+
+#support, #quick_links {
+    float: left;
+    padding-right: 50px;
+    line-height: 25px;
+}
+
+#footer div ul li:first-of-type, #faq {
+    font-size: 1.3em;
+    padding-bottom: 20px;
 }
