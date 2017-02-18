@@ -6,6 +6,10 @@ body {
     width: 100%;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 /*Main header*/
 #page_header {
     height: 60px;
@@ -39,7 +43,6 @@ nav ul li {
 nav a:hover { 
     transition: background-color 0.5s ease;
     background-color: black;
-    padding: 5px;   
  }
 
 /*Search box*/
@@ -98,78 +101,7 @@ select {
     text-align: justify;
 }
 
-/*slide show*/
-.slideshow_container {
-    max-width: 1000px;
-    position: relative;
-    margin: 0 auto;
-    top: 200px;
-    border: 1px solid black;
-}
-
-.myslides img {
-    width: 100%;
-}
-
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-}
-
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-    background-color: rgba( 0, 0, 0, 0.8 );
-}
-
-.text {
-    color: black;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 40%;
-    width: 100%;
-    text-align: center;
-}
-
-.number_text {
-    color: black;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-    from { opacity: .4 }
-    to { opacity: 1 }
-}
-
-@keyframes fade {
-    from { opacity: .4 }
-    to { opacity: 1 }
-}
-
-/*footer*/
+/*FOOTER STYLES*/
 footer {
     padding: 60px 60px 10px;
     background-color: white;
@@ -182,6 +114,10 @@ footer {
     margin: 0 auto 60px;
 }
 
+footer a:hover {
+    text-decoration: underline;
+}
+
 #link_footer {
     clear: both;
     text-align: center;
@@ -190,23 +126,27 @@ footer {
     padding-top: 10px;
 }
 
+/*makes the links in the bottom appear in a line*/
 #link_footer ul li {
     display: inline;
 }
 
+/*makes the footer appear as columns next to each other*/
 #support, #quick_links {
     float: left;
     padding-right: 50px;
     line-height: 25px;
 }
 
+/*gives the links in the bottom space between each other and makes they size small*/
 #link_footer a {
     padding-right: 50px;
     font-size: .8em;
     font-style: italic;
 }
 
-#footer div ul li:first-of-type, #faq {
-    font-size: 1.3em;
+/*selects every first word of the footer list and increases their size and give space between them and the remainder of the list below*/
+#footer p {
+    font-size: 1.5em;
     padding-bottom: 20px;
 }
