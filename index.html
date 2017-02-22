@@ -11,6 +11,9 @@
 
         <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
         <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+
+        <!--Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Barrio|Gloria+Hallelujah|Indie+Flower|Josefin+Sans" rel="stylesheet">
         
         <title>Books In Bound</title>
     </head>
@@ -20,19 +23,20 @@
         <header id="page_header">
             <nav>
                 <ul>
-                    <a href="#"><li>Home |      </li></a>
-                    <a href="#"><li>Account |   </li></a>
-                    <a href="#"><li>Help        </li></a>
+                    <a href="#"><li>Signup       </li></a>
+                    <a href="#"><li>Login    </li></a>
+                    <a href="#"><li>About       </li></a>
                 </ul>
             </nav>
 
             <!--Logo-->
             <div id="logo">
-                
+                <img src="assets/images/logo.png">
             </div> <!-- End of logo div -->
 
             <!--search box-->
-            <form id="browse" action="search.php" method="GET">
+        <div id="browse">
+            <form action="search.php" method="GET">
                 <fieldset>
                     <select>
                         <option value="Genre" selected>Genre</option>
@@ -70,28 +74,47 @@
                     <input type="submit" value="Search">
                 </fieldset>
             </form><!-- End of search form -->
+        </div> <!-- End of seacrch form div -->
+
         </header> <!-- End of main header tag -->
 
         <div id="content">
-            <div class="slideshow_container">
-                <!-- First image -->
-                <div class="myslides fade">
-                    <div class="number_text">1/2</div>
-                    <img src="assets/images/slider_image1.jpg">
-                    <div class="text">Caption Text</div>
-                </div>
-
-                <!-- Second image -->
-                <div class="myslides fade">
-                    <div class="number_text">2/2</div>
-                    <img src="assets/images/slider_image2.jpg">
-                    <div class="text">Caption Text</div>
-                </div>
-
-                <a class="prev" onclick="plusSlides( -1 )">&#10094;</a>
-                <a class="next" onclick="plusSlides( 1 )">&#10095;</a>
-            </div> <!-- End of slideshow_container -->
+            <h1>Welcome to <br>Books in Bound</h1>
         </div> <!-- End of content div -->
+
+        <footer>
+            <div id="footer">
+                <div id="support">
+                    <p>Support</p>
+                    <ul>
+                        <a><li>Contact Us</li></a>
+                        <a><li>System Requirements</li></a>
+                        <a><li>Report<li></a>
+                        <a><li>Help</li></a>
+                    </ul>
+                </div>
+
+                <div id="quick_links">
+                    <p>Quick Links</p>
+                    <ul>
+                        <a><li>Profile</li></a>
+                        <a><li>Search</li></a>
+                        <a><li>About Us</li></a>
+                    </ul>
+                </div>
+                <div id="faq">
+                    <p>FAQ</p>
+                </div>
+            </div>
+            
+            <div id="link_footer">
+                <ul>
+                    <a><li>&#169; Booksinbound.com</li></a>
+                    <a><li>Privacy policy</li></a>
+                    <a><li>Terms and conditions</li></a>
+                </ul>
+            </div>
+        </footer>
 
         <script src="assets/js/script.js"></script>
     </body>
