@@ -10,6 +10,14 @@ a:hover {
     cursor: pointer;
 }
 
+.main_content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5em;
+    height: 20em;
+}
+
 /*Main header*/
 #page_header {
     height: 60px;
@@ -92,7 +100,7 @@ select {
     background: url("../images/background.jpg") no-repeat;
     background-size: 100% 518px;
     height: 518px;
-    opacity: 0.6;
+    opacity: 0.85;
 }
 
 #content h1 { 
@@ -104,8 +112,8 @@ select {
 /*FOOTER STYLES*/
 footer {
     padding: 60px 60px 10px;
-    background-color: white;
     color: black;
+    background: white;
     margin: 0;
 }
 
@@ -150,3 +158,23 @@ footer a:hover {
     font-size: 1.5em;
     padding-bottom: 20px;
 }
+
+/*ABOUT PAGE*/
+.about > h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/*CONTACT PAGE*/
+.contact fieldset {
+    display: block;
+    border: 1px groove white;
+    padding: 10px;
+    margin: 0 10px;
+}
+.contact form {
+    padding: 10px;
+    margin: 10px;   
+    line-height: 50px;
+}
+
