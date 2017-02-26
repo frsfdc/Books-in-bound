@@ -1,0 +1,143 @@
+/*Global styles*/
+body {
+    color: white;
+    background: white;
+    margin: 0;
+    width: 100%;
+}
+
+/*Main header*/
+#page_header {
+    height: 90px;
+    background: #233792;
+    margin: 0;
+    padding: 10px;
+    box-shadow: 0 5px 20px 1px #0D232C;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav { 
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    position: inherit;
+}   
+
+form#browse {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+
+#browse input[type="search"] {
+    width: 250px;
+    border-radius: 5px;
+    height: 35px;
+}
+
+#browse input[type="submit"]{
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url("../images/sprite.png") no-repeat -43px 0;
+    height: 18px;
+    width: 18px;
+    padding: 0;
+    margin: 8px 0 0;
+    border: none;
+    position: absolute;
+    right: 5%;
+}
+
+select {
+    color: black;
+    width: 100px;
+}
+
+#logo {
+    position: absolute; 
+    left: 15%;
+    top: 5%;
+    width: 177px;
+    height: 106px;
+    background-image: url(../images/logo.png);
+}
+
+/*slide show*/
+.slideshow_container {
+    max-width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    top: 200px;
+    border: 1px solid black;
+}
+
+.myslides img {
+    width: 100%;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba( 0, 0, 0, 0.8 );
+}
+
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.number_text {
+    color: black;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from { opacity: .4 }
+    to { opacity: 1 }
+}
+
+@keyframes fade {
+    from { opacity: .4 }
+    to { opacity: 1 }
+}
