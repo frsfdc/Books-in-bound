@@ -16,6 +16,7 @@ a:hover {
     padding: 20px;
     line-height: 1.5em;
     height: 20em;
+    overflow: auto;
 }
 
 /*Main header*/
@@ -176,5 +177,15 @@ footer a:hover {
     padding: 10px;
     margin: 10px;   
     line-height: 50px;
+}
+
+.support, .quick_links, .faq {
+    float: left;
+}
+
+.clearfix:before, .clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
