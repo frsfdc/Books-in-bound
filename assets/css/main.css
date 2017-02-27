@@ -22,7 +22,6 @@ a:hover {
     margin: 0 auto;
     padding: 20px;
     line-height: 1.5em;
-    height: 20em;
     overflow: auto;
 }
 
@@ -167,6 +166,16 @@ footer a:hover {
     padding-bottom: 20px;
 }
 
+.support, .quick_links, .faq {
+    float: left;
+}
+
+.clearfix:before, .clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /*ABOUT PAGE*/
 .about > h1 {
     text-align: center;
@@ -188,15 +197,5 @@ footer a:hover {
 
 .contact {
     height: 100%;
-}
-
-.support, .quick_links, .faq {
-    float: left;
-}
-
-.clearfix:before, .clearfix:after{
-    content: "";
-    display: table;
-    clear: both;
 }
 
