@@ -78,51 +78,52 @@
         </header> <!-- End of main header tag -->
 
         <div class="main_content contact">
-            <p>If you would like to get in touch with us regarding anything about our services please 
+			<h1>contant Us</h1>
+            <p>At booksinbound we are always help to help so if you would like to get in touch with us regarding anything to do with our services please 
                 fill the form below:</p>
             <form>
                 <fieldset>
                     <legend>Contact Us</legend>
-                    <p><label>Name:     <input type="text" name="first_name" required></label></p>
-                    <p><label>Email:    <input type="email" name="email_adress" required></label></p>
+                    <p><label>Name:     <input type="text" name="first_name" required></label> *</p>
+                    <p><label>Email:    <input type="email" name="email_adress" required></label> *</p>
+					<p><label>Subject:  <input type="text" name="subject" ></label></p>
                     <p> <textarea rows="10" cols="70">Enter Comments...</textarea></p>
+					<p style="float: right;">* fields are required</p>
                     <p>                 <input type="submit" name="submit" value="submit"></p>
                 </fieldset>
             </form>
         </div> <!-- End of about us div -->
 
         <footer>
-            <section class="bg_footer clearfix">
-                <div class="support">
+            <div id="footer">
+                <div id="support">
                     <p>Support</p>
                     <ul>
-                        <a><li>Contact Us</li></a>
-                        <a><li>System Requirements</li></a>
-                        <a><li>Report</li></a>
-                        <a><li>Help</li></a>
+                        <a href="contact.html"><li>Contact Us</li></a>
+                        <a href="requirements.html"><li>System Requirements</li></a>
+                        <a href="help.html"><li>Help</li></a>
                     </ul>
                 </div>
 
-                <div class="quick_links">
+                <div id="quick_links">
                     <p>Quick Links</p>
                     <ul>
-                        <a><li>Profile</li></a>
-                        <a><li>Search</li></a>
+                        <a href="#browse"><li>Search</li></a>
                         <a href="about.html"><li>About Us</li></a>
                     </ul>
                 </div>
-                <div class="faq">
+                <div id="faq">
                     <p>FAQ</p>
                 </div>
-            </section>
+            </div>
             
-            <section class="link_footer">
+            <div id="link_footer">
                 <ul>
-                    <a><li>&#169; Booksinbound.com</li></a>
-                    <a><li>Privacy policy</li></a>
-                    <a><li>Terms and conditions</li></a>
+                    <a href="index.html"><li>&#169; Booksinbound.com</li></a>
+                    <a href="privacy.html"><li>Privacy policy</li></a>
+                    <a href="terms.html"><li>Terms and conditions</li></a>
                 </ul>
-            </section>
+            </div>
         </footer>
 
         <script src="assets/js/script.js"></script>
