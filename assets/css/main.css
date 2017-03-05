@@ -66,6 +66,7 @@ nav ul li {
     width: 250px;
     border-radius: 5px;
     height: 35px;
+	border: 2px solid #0088dd;
 }
 
 #browse input[type="submit"]{
@@ -85,7 +86,6 @@ select {
     color: black;
     width: 100px;
 	height: 30px;
-	border: none;
 }
 
 #logo {
@@ -105,6 +105,7 @@ select {
     background-size: 100% 518px;
     height: 518px;
     opacity: 0.6;
+	border-top: 5px solid #0088dd;
 }
 
 #content h1 { 
@@ -130,7 +131,7 @@ footer {
     clear: both;
     text-align: center;
     margin-top: 100px;
-    border-top: 2px solid black;
+    border-top: 2px solid #0088dd;
     padding-top: 10px;
 }
 
