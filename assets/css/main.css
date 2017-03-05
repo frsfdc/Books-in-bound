@@ -25,6 +25,7 @@ a:hover {
     margin: 0 auto;
     padding:  150px 0;
     line-height: 1.5em;
+	height: 100%;
 }
 
 /*Main header*/
@@ -130,6 +131,11 @@ footer {
 #footer {
     width: 80%;
     margin: 0 auto 60px;
+	padding: 0 0 60px;
+}
+
+#footer div {
+	padding-left: 100px;
 }
 
 #link_footer {
@@ -164,7 +170,7 @@ footer {
     padding-bottom: 20px;
 }
 
-.support, .quick_links, .faq {
+.support, .quick_links {
     float: left;
 }
 
@@ -193,9 +199,6 @@ footer {
     line-height: 50px;
 }
 
-.contact {
-    height: 100%;
-}
 
 .contact h1 {
 	text-align: center;
