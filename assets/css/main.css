@@ -6,15 +6,15 @@ body {
     width: 100%;
 }
 
-a:link { text-decoration: none; }
-
-a:visited {
+a:visited, a:link {
     color: black;
     text-decoration: none;
 }
 
 a:hover {
     cursor: pointer;
+	text-decoration: underline;
+	color: #0088dd;
 }
 
 .main_content {
@@ -22,7 +22,6 @@ a:hover {
     margin: 0 auto;
     padding: 20px;
     line-height: 1.5em;
-    overflow: auto;
 }
 
 /*Main header*/
@@ -55,10 +54,6 @@ nav ul li {
     color: black;
 }  
 
-nav a:hover { 
-    transition: background-color 0.5s ease;
-    background-color: black;
- }
 
 /*Search box*/
 #browse form {
@@ -89,6 +84,8 @@ nav a:hover {
 select {
     color: black;
     width: 100px;
+	height: 30px;
+	border: none;
 }
 
 #logo {
@@ -107,7 +104,7 @@ select {
     background: url("../images/background.jpg") no-repeat;
     background-size: 100% 518px;
     height: 518px;
-    opacity: 0.85;
+    opacity: 0.6;
 }
 
 #content h1 { 
@@ -127,10 +124,6 @@ footer {
 #footer {
     width: 80%;
     margin: 0 auto 60px;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
 
 #link_footer {
@@ -160,7 +153,6 @@ footer a:hover {
     font-style: italic;
 }
 
-/*selects every first word of the footer list and increases their size and give space between them and the remainder of the list below*/
 #footer p {
     font-size: 1.5em;
     padding-bottom: 20px;
