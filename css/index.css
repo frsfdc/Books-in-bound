@@ -6,6 +6,9 @@ body {
     width: 100%;
 }
 
+h2{
+	visibility:hidden;
+}
 /*Main header*/
 #page_header {
     height: 90px;
@@ -23,6 +26,97 @@ nav {
     letter-spacing: 2px;
     padding-top: 20px;
 }
+.profile{
+	
+	position:inherit;
+	margin-left:200px;
+	width:300px;
+	height:300px;
+}
+.profile img{
+	margin-top:120px;
+	border:20px;
+	border-color:red;
+} 
+.bio{
+	width:300px;
+	height:300px;
+}
+.result{
+	
+	
+	margin-left:300px;
+	margin-top:-1015px;
+	padding:0px;
+	
+	height:1000px;
+	width:1050px;
+}
+.result a{
+    display: block;
+    color: #000;
+    padding: 100px 100px;
+    text-decoration: none
+	
+	
+	
+}
+.result img {
+	
+	width:250px;
+	height:auto;
+	
+}
+
+.result a:hover{
+	background-color:#e6e6e6;
+	color:black;
+	margin:0px;
+	width:850px;
+	
+	
+}
+
+.filt{
+	position:relative;
+	padding-top:130px;
+	margin:0px;
+	width:300px;
+	text-align:center;
+    letter-spacing: 5px;
+	background-color: #ccccff;
+	height:1000px;
+	
+	   
+}
+.filt li{
+	padding: 10px ;
+	cursor:pointer;
+}
+.filt [type=text]{
+	width:500px;
+	
+}
+.filt li:hover{
+	background-color:#233792;
+	color:white;
+	margin:0px;
+	
+}
+
+
+.filt p{
+	display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none
+}
+.filt p:hover{
+	background-color:#233792;
+	color:white;
+	margin:0px;
+}
+
 
 nav ul li {
     text-decoration: none;
@@ -36,6 +130,40 @@ form#browse {
     position: absolute;
     right: 5%;
     top: 20%;
+}
+#myDIV {
+    width: 270px;
+    padding: 0px;
+	margin:10px;
+    text-align: center;
+    background-color: white;  
+	color:black;
+}
+
+#myDIV2 {
+    width: 270px;
+    padding: 0px;
+	margin:10px;
+    text-align: center;
+    background-color: white; 
+	color:black;
+}
+
+#myDIV3 {
+    width: 270px;
+    padding: 0px;
+	margin:10px;
+    text-align: center;
+    background-color: white; 
+	color:black;
+}
+#myDIV4 {
+    width: 270px;
+    padding: 0px;
+	margin:10px;
+    text-align: center;
+    background-color: white; 
+	color:black;
 }
 
 #browse input[type="search"] {
@@ -64,11 +192,28 @@ select {
 
 #logo {
     position: absolute; 
-    left: 15%;
-    top: 5%;
-    width: 177px;
-    height: 106px;
-    background-image: url(../images/logo.png);
+    left: 20%;
+    top: 10%;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+#profilepic{
+	
+   
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
 }
 
 /*slide show*/
@@ -78,6 +223,12 @@ select {
     margin: 0 auto;
     top: 200px;
     border: 1px solid black;
+}
+.filter_container{
+	max-width:200px;
+	position:relative;
+	background-color:#233792;
+	margin-top:100px;
 }
 
 .myslides img {
@@ -116,6 +267,7 @@ select {
     width: 100%;
     text-align: center;
 }
+
 
 .number_text {
     color: black;
